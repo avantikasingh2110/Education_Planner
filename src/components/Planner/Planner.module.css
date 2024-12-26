@@ -1,0 +1,76 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/1635467182/photo/creative-wallpaper-for-kids-stationary-on-a-yellow-background.jpg?s=612x612&w=0&k=20&c=tA42hzvAhYXTdols5tV4YBiJHjfU9E9gvldirCgOS-I=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: "Nosifer", serif;
+    color: rgb(169, 0, 130);
+}
+
+.input_container {
+    padding: 10px;
+    background-color: #ff035b;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.subject {
+    font-size: 1rem;
+    padding: 8px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hour {
+    font-size: 1rem;
+    padding: 8px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 1rem;
+    padding: 8px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(0, 85, 221);
+    color: aliceblue;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: aliceblue;
+    color: #0056b3;
+    border: 2px solid #0056b3;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 955px) {
+    h1 {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+}
